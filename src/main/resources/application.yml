@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    initialization-mode: always
+    url: jdbc:postgresql://127.0.0.1:5432/referential
+    username: admin
+    password: admin
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
